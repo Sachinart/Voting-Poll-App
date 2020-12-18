@@ -1,0 +1,64 @@
+:root {
+   /*  --menu-bg-color:		#49CD7D;
+    --menu-bg-color-active:	#3aa464; */
+	 --menu-bg-color:		#3aa464;
+ /*   --menu-bg-color-active:	#22623c; */
+    --menu-bg-color-active:	#3f5564;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+	
+.navbar-header {
+    min-height: 80px;
+}
+
+.navbar-toggle{
+	margin-top: 25px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-nav>li>a:hover {
+	color: #fff;
+    background-color: var(--menu-bg-color-active)  !important;
+}
+
+.navbar-inverse {
+	/*background-color: var(--menu-bg-color);*/
+	background-color: #5b7a90;
+    border-color: var(--menu-bg-color-active);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-nav>li>a:hover {
+	color: black;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+	
+	.navbar-inverse .navbar-toggle {
+		border-color: var(--menu-bg-color-active);
+	}
+
+	.nav>li {
+		border-bottom: 1px solid var(--menu-bg-color-active);
+	}
+
+	.navbar-nav {
+		margin: 7.5px -15px 0px -15px;
+	}
+
+}
