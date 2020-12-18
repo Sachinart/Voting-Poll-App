@@ -8,5 +8,4 @@ This app is used to create polls and a registered user can vote and can see the 
 2. Copy the queries inside sqlScripts.sql and run it on phpmyadmin
 3. That's it. Run the app in browser.
 
-Login Page - login.php
-Sign up page - sign-up.php
+Login Page - login.php, Sign up page - sign-up.php
