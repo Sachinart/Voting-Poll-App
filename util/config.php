@@ -3,9 +3,9 @@
 * DATABASE related constants
 */
 define("HOST", "localhost"); 			// The host you want to connect to. 
-define("USER", "sachinar_cam"); 			// The database username. 
-define("PASSWORD", "camerarental"); 	// The database password. 
-define("DATABASE", "sachinar_vote");             // The database name.
+define("USER", "{DB_USERNAME}"); 			// The database username. 
+define("PASSWORD", "{DB_PASSWORD}"); 	// The database password. 
+define("DATABASE", "{DB_NAME}");             // The database name.
 
 /**
 * Who can register and what the default role will be
